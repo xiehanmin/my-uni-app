@@ -1,0 +1,1 @@
+<view><text>我的协议</text><my-tab-bar vue-id="3fa44898-1" selected="{{selected}}" bind:__l="__l"></my-tab-bar></view>

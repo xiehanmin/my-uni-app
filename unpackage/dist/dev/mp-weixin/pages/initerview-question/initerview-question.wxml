@@ -1,0 +1,1 @@
+<view><text>刷面试题</text><my-tab-bar vue-id="7dd55748-1" selected="{{selected}}" bind:__l="__l"></my-tab-bar></view>

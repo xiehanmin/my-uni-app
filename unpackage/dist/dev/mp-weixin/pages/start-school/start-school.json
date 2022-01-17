@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "班级详情页",
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "my-header": "/common/my-header/my-header",
+    "manage-list": "/components/start-school/manage-list",
+    "celebrity-list": "/components/start-school/celebrity-list.vue",
+    "notice": "/components/start-school/Notice"
+  }
+}

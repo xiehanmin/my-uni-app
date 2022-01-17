@@ -1,0 +1,76 @@
+
+scroll-view ::-webkit-scrollbar {
+	display: none;
+	width: 0 !important;
+	height: 0 !important;
+	-webkit-appearance: none;
+	background: transparent;
+	color: transparent;
+}
+.home {
+	width: 100vw;
+	height: 100%;
+	margin-right: -7rpx;
+	background: url('https://fawn.xuexiluxian.cn/api/profile/wechat/bgimg/bg.png') no-repeat;
+	background-size: cover;
+	margin-bottom: 120rpx;
+	box-sizing: border-box;
+}
+.home-header {
+	padding: 131rpx 37rpx 0 37rpx;
+}
+.home-title {
+	width: 420rpx;
+	height: 59rpx;
+	font-size: 60rpx;
+	font-family: Microsoft Yahei;
+	font-weight: 400;
+	color: #000cff;
+	line-height: 80rpx;
+}
+.home-school {
+	width: 236rpx;
+	height: 40rpx;
+	font-size: 38rpx;
+	font-family: Microsoft Yahei;
+	font-weight: 400;
+	color: #344356;
+	line-height: 56rpx;
+	opacity: 0.8;
+	padding: 30rpx 0;
+}
+.home-show {
+	width: 290rpx;
+	height: 59rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	background-color: #5468ff;
+	border-radius: 10rpx;
+	padding: 0 20rpx;
+	box-sizing: border-box;
+}
+.home-class {
+	width: 200rpx;
+	height: 27rpx;
+	line-height: 27rpx;
+	font-size: 28rpx;
+	font-family: Microsoft Yahei;
+	font-weight: 400;
+	color: #FFFFFF;
+}
+.home-class::after {
+	content: '';
+	width: 1rpx;
+	height: 31rpx;
+	margin: 0 20rpx;
+	border-left: 4rpx solid #FFFFFF;
+}
+.home-img {
+	width: 38rpx;
+	height: 38rpx;
+}
+
